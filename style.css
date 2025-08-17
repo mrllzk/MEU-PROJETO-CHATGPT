@@ -1,0 +1,105 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50; /* Fundo verde */
+    color: #0000FF; /* Letras azuis */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #2E7D32;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #00B0FF;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #00B0FF;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Produtos */
+.produtos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.produto {
+    background-color: #A5D6A7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.produto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.produto button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #00B0FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produto button:hover {
+    background-color: #007ACC;
+}
+
+/* Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+form input, form textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #00B0FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #007ACC;
+}
+
+/* Footer */
+footer {
+    background-color: #2E7D32;
+    text-align: center;
+    padding: 10px;
+    color: #00B0FF;
+}
