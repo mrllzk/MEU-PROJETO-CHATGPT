@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pereirashop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pereirashop</h1>
+        <nav>
+            <a href="#produtos">Produtos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="produtos-container">
+                <div class="produto">
+                    <img src="https://via.placeholder.com/150" alt="Camiseta">
+                    <h3>Camiseta Casual</h3>
+                    <p>R$ 49,90</p>
+                    <button onclick="adicionarCarrinho('Camiseta Casual')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto">
+                    <img src="https://via.placeholder.com/150" alt="Calça Jeans">
+                    <h3>Calça Jeans</h3>
+                    <p>R$ 99,90</p>
+                    <button onclick="adicionarCarrinho('Calça Jeans')">Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto">
+                    <img src="https://via.placeholder.com/150" alt="Jaqueta">
+                    <h3>Jaqueta</h3>
+                    <p>R$ 149,90</p>
+                    <button onclick="adicionarCarrinho('Jaqueta')">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contatoForm">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pereirashop. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
